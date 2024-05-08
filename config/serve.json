@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cemex.sharepoint.com/sites/PMOQA/SitePages/TestApp.aspx",
+      "customActions": {
+        "21585fef-8439-4983-ac6c-653580ffbfee": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "paginaEnBlanco": {
+      "pageUrl": "https://cemex.sharepoint.com/sites/PMOQA/SitePages/TestApp.aspx",
+      "customActions": {
+        "21585fef-8439-4983-ac6c-653580ffbfee": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

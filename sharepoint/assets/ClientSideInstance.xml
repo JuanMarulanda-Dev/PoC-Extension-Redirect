@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="PaginaEnBlanco"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="21585fef-8439-4983-ac6c-653580ffbfee"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

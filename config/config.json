@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pagina-en-blanco-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/paginaEnBlanco/PaginaEnBlancoApplicationCustomizer.js",
+          "manifest": "./src/extensions/paginaEnBlanco/PaginaEnBlancoApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PaginaEnBlancoApplicationCustomizerStrings": "lib/extensions/paginaEnBlanco/loc/{locale}.js"
+  }
+}
